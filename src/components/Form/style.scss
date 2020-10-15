@@ -1,0 +1,38 @@
+.i-form {
+  background: #ffffff;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  margin: 0 !important;
+
+  .el-form {
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+    height: calc(100% - 50px);
+    overflow-y: auto;
+  }
+
+  .title {
+    width: 28px;
+    height: 19px;
+    font-size: 14px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    line-height: 19px;
+    color: #212a40;
+    opacity: 1;
+  }
+
+  .footer {
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 20px;
+    background: #f8fbff;
+  }
+
+  .el-select {
+    width: 100%;
+  }
+}

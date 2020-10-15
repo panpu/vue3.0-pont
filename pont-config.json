@@ -1,0 +1,21 @@
+{
+  "templatePath": "./pontTemplate",
+  "outDir": "./src/services",
+  "surrounding": "javaScript",
+  "usingMultipleOrigins": true,
+  "origins": [
+    {
+      "originUrl": "http://124.70.22.19:8002/api/manage-center-server/v2/api-docs",
+      "name": "manageCenterServer"
+    },
+    {
+      "originUrl": "http://124.70.22.19:8002/api/oauth-server/v2/api-docs",
+      "name": "oauthServer"
+    },
+    {
+      "originUrl": "http://124.70.22.19:8002/api/resources-center-server/v2/api-docs",
+      "name": "resourcesCenterServer"
+    }
+  ],
+  "templateType": "fetch"
+}
